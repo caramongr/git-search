@@ -7,7 +7,7 @@ render() {
 const products =  ['Learn React', 'Pro React', 'Beginning React'];
 
 const listProducts = products.map((product) =>
-<li key={product.toString}>{product}</li>)
+<li key={product.toString()}>{product}</li>)
 
     return(
         <div>
