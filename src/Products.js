@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Product from './Product';
 
+
 class Products extends Component{
 
     products;
@@ -35,7 +36,8 @@ super(props);
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, tellus laoreet venenatis facilisis, enim ex faucibus nulla, id rutrum ligula purus sit amet mauris. ",        
             rating: 5,
             numOfReviews: 2
-        }];
+        }
+    ];
     }    
 
 render() {
@@ -45,9 +47,19 @@ render() {
     );
 
     return(
+
         <div>
-            <ul>{listProducts}</ul>
-            </div>
+        {listProducts.length > 0 ? ( 
+            <ul>{listProducts}</ul>     
+        ) : (         
+          <ul>No Products to display</ul>     
+        )}        
+      </div>   
+
+        // <div>
+        //    {listProducts.length>0 && <ul>{listProducts}</ul> }
+        //    {listProducts.length==0 && <ul>No products to display</ul> }
+        //     </div>
     )
 
 }

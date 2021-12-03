@@ -4,6 +4,7 @@ import React , { Component } from 'react';
 import Products from './Products'
 import {Button} from 'react-bootstrap';
 import Rating from './Rating';
+import JumboTronComponent from './JumboTronComponent';
 
 class App extends Component{
 
@@ -23,6 +24,10 @@ const user = {
     return(
 <div>
   <h1>hello, {this.formatName(user)}</h1>
+
+  <JumboTronComponent>
+  VVorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, tellus laoreet venenatis facilisis, enim ex faucibus
+    </JumboTronComponent>
   <Products />
 {/* <Rating rating="1" />
 <Rating rating="2" />
