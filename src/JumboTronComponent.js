@@ -13,7 +13,7 @@ class JumboTronComponent extends Component {
         <div>
               <h1>Hello, world!</h1>
              <p>{this.props.children}</p>
-              <p><Button bsStyle="primary">Learn more</Button></p> }
+              <p><Button bsStyle="primary">Learn more</Button></p> 
   </div>                                                                                                                           
         </div>
       );
