@@ -24,10 +24,10 @@ const user = {
 <div>
   <h1>hello, {this.formatName(user)}</h1>
   <Products />
-<Rating rating="1" />
+{/* <Rating rating="1" />
 <Rating rating="2" />
-<Rating rating="3" />
-  <Button variant='primary' disabled={!isValid}>Default</Button>
+<Rating rating="3" /> */}
+  {/* <Button variant='primary' disabled={!isValid}>Default</Button> */}
   </div>
 )
 

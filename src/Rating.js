@@ -22,7 +22,7 @@ handleClick(ratingValue){
 render() {
 
 return (
-    <div><h1>Rating: {this.state.rating}</h1>
+    <div style={styles.starStyle}><h1>Rating: {this.state.rating}</h1>
     {this.state.rating>=1?(
    <IoIosStar  onClick={this.handleClick.bind(this,1)} />
     ):(
@@ -65,3 +65,11 @@ return (
 }
 
 export default Rating
+
+
+const styles={
+    starStyle:{
+      color: 'orange'    
+    }
+  }
+  
