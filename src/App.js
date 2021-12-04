@@ -6,6 +6,7 @@ import {Button} from 'react-bootstrap';
 import Rating from './Rating';
 import JumboTronComponent from './JumboTronComponent';
 import UserForm from './UserForm';
+import GitHub from './GitHub';
 
 class App extends Component{
 
@@ -29,8 +30,9 @@ const user = {
   <JumboTronComponent>
   VVorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, tellus laoreet venenatis facilisis, enim ex faucibus
     </JumboTronComponent>
-  <Products />
-  <UserForm />
+  {/* <Products /> */}
+  <GitHub />
+  {/* <UserForm /> */}
 {/* <Rating rating="1" />
 <Rating rating="2" />
 <Rating rating="3" /> */}
