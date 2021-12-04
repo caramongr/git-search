@@ -5,6 +5,7 @@ import Products from './Products'
 import {Button} from 'react-bootstrap';
 import Rating from './Rating';
 import JumboTronComponent from './JumboTronComponent';
+import UserForm from './UserForm';
 
 class App extends Component{
 
@@ -29,6 +30,7 @@ const user = {
   VVorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, tellus laoreet venenatis facilisis, enim ex faucibus
     </JumboTronComponent>
   <Products />
+  <UserForm />
 {/* <Rating rating="1" />
 <Rating rating="2" />
 <Rating rating="3" /> */}
